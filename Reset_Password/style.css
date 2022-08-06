@@ -5,15 +5,17 @@
 }
 
 main {
-  margin: 1.5% 2.5%;
+  margin-top: 1%;
+  padding: 0;
   display: flex;
-  /* align-items: center;
-    justify-content: center; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .image {
   width: 50%;
-  max-width: 572px;
+  max-width: 450px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("background.svg");
@@ -24,7 +26,8 @@ main {
   /* padding: 2.5% 18.3% 2.5% 3%; */
 }
 .form {
-    padding-top: 5%;
+  padding-bottom: 20%;
+  padding-left: 5%;
 }
 
 /* font style for all fonts, h1 and h3 are for the image part of the screen */
@@ -62,18 +65,17 @@ p {
 
 /* styling the form input cells and submit button */
 input {
-    width: 90%;
-    max-width: 600px;
-    padding: 12px 20px;
-    border-radius: 5px ;
-    border: 2px solid lightgray;
-    outline: none;
-    cursor: pointer;
+  width: 90%;
+  max-width: 600px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  outline: none;
+  cursor: pointer;
 }
 input[type="submit"] {
-    color: white;
-    border: none;
-    background-color: #3498F4;
-    text-align: center;
-    
+  color: white;
+  border: none;
+  background-color: #3498f4;
+  text-align: center;
 }
